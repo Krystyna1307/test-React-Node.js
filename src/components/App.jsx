@@ -5,6 +5,7 @@ import List from "./List/List";
 import Message from "./Message/Message";
 import Modal from "./Modal/Modal";
 import Section from "./Section/Section";
+import "../index.css";
 
 const App = () => {
   const isOnline = false;
