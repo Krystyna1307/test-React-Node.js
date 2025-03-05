@@ -1,10 +1,11 @@
+import clsx from "clsx";
 import s from "./Header.module.css";
 
 const Header = () => {
   return (
     <header>
       <div>Logo</div>
-      <p className={s.title}>
+      <p className={clsx(s.title, s.second_class)}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi
         sint quasi vero, doloremque ipsa nam voluptatum temporibus culpa
         consequatur molestiae possimus. Corrupti necessitatibus inventore

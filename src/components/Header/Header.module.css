@@ -1,3 +1,11 @@
 .title {
-  background-color: blue;
+  background-color:aqua;
+}
+
+.second_class {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form_title {
 }
