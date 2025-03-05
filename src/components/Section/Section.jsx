@@ -1,23 +1,3 @@
-// import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
-// import "./App.css";
-
-const Header = () => {
-  return (
-    <header>
-      <div>Logo</div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Profile</li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
-
 const Section = () => {
   return (
     <section>
@@ -41,23 +21,4 @@ const Section = () => {
   );
 };
 
-const Footer = () => {
-  return (
-    <footer>
-      <span>&copy; All right reserved</span>
-    </footer>
-  );
-};
-
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <Section />
-      <Section />
-      <Footer />
-    </div>
-  );
-};
-
-export default App;
+export default Section;
