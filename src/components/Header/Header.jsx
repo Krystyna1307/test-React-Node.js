@@ -1,6 +1,8 @@
 const Header = () => {
   return (
-    <header>
+    <header
+      style={{ display: "flex", backgroundColor: "teal", color: "white" }}
+    >
       <div>Logo</div>
       <nav>
         <ul>
