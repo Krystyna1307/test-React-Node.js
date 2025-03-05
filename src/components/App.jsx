@@ -7,6 +7,7 @@ import Modal from "./Modal/Modal";
 import Section from "./Section/Section";
 import "../index.css";
 import "modern-normalize";
+import practic from "./../assets/Rectangle 19.png";
 
 const App = () => {
   const isOnline = false;
@@ -46,6 +47,7 @@ const App = () => {
         <input type="text" />
         <button>CLICK</button>
       </Modal>
+      <img src={practic} />
 
       <Message text="Куплю праску!" author="Олена" />
       <Message text="Продам!" />
